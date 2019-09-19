@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/ralewayblack.woff") format("woff"),
+  url("../fonts/ralewayblack.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/ralewaybold.woff") format("woff"),
+  url("../fonts/ralewaybold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/robotomedium.woff") format("woff"),
+  url("../fonts/robotomedium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+}
