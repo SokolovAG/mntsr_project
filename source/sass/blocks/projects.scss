@@ -1,0 +1,21 @@
+.projects__title {
+  font-family: "Raleway Black", Arial Black, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  display: block;
+  width: 100%;
+  position: relative;
+  color: #000000;
+  text-transform: uppercase;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 877px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    left: 25%;
+    top: 25px;
+  }
+}
