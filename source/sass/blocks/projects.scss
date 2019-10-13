@@ -19,3 +19,110 @@
     top: 25px;
   }
 }
+
+.projects__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects__item {
+  padding: 15px 20px 45px 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 288px;
+  position: relative;
+
+  &--futur {
+    background-image: url(../../img/futur-stadium.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 290px 290px;
+  }
+
+  &--oreol {
+    background-image: url(../../img/oreol-business-center.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 290px 290px;
+  }
+
+  &--family-cinema {
+    background-image: url(../../img/family-cinema.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 290px 290px;
+  }
+
+  &--medial {
+    background-image: url(../../img/medial-center.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 290px 290px;
+    margin-right: 0;
+  }
+
+  &--energo-nac {
+    background-image: url(../../img/energo-nac-company.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 583px 290px;
+    width: 582px;
+
+    & .projects__item-title {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  }
+
+  &--buratino {
+    background-image: url(../../img/buratino-theatre.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 583px 290px;
+    width: 582px;
+    margin-right: 0;
+
+    & .projects__item-title {
+      font-size: 32px;
+      line-height: 32px;
+    }
+
+  }
+
+}
+
+.projects__item-title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.projects__item-description {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  color: #c1c1c3;
+}
+
+.projects__item-link {
+  background-image: url(../../img/right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 6px;
+  display: block;
+  width: 40px;
+  height: 29px;
+  border: 2px solid #6d6d6f;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  
+  &:hover {
+    background-image: url(../../img/right-arrow-black-hvr.png);
+    background-color: #00ffd8;
+    border: none;
+  }
+}
